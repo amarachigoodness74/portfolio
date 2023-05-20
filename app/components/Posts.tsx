@@ -1,7 +1,41 @@
-import React from 'react'
+import Link from "next/link";
+import getFormattedDate from "@/utils/getFormattedDate";
+import { getSortedPostsData } from "@/utils/posts";
+import { FaRegEdit } from "react-icons/fa";
+
+type Props = {
+  post: BlogPost;
+};
+
+function ListItem({ post }: Props) {
+  const { id, title, date } = post;
+  const formattedDate = getFormattedDate(date);
+
+  return (
+    <li className="mt-4 text-lg dark:text-white/90">
+      {" "} • {" "}
+      <Link
+        className="underline dark:hover:text-white"
+        href={`/posts/${id}`}
+      >
+        {title}
+      </Link>
+      <span className="text-sm mt-1">{" "} - {" "}{formattedDate}</span>
+    </li>
+  );
+}
 
 export default function Posts() {
+  const posts = getSortedPostsData();
+
   return (
-    <div><h1>📝 &nbsp; Posts</h1></div>
-  )
+    <section className="my-7 mx-auto max-w-2xl">
+      <h2 className="text-2xl font-bold flex items-center"><FaRegEdit /> &nbsp; Posts</h2>
+      <ul className="w-full">
+        {posts.map((post) => (
+          <ListItem key={post.id} post={post} />
+        ))}
+      </ul>
+    </section>
+  );
 }

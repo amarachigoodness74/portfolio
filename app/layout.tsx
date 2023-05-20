@@ -1,7 +1,8 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import "./globals.css";
+import "./styles/globals.css";
+import { ThemeProvider } from "./components/themeProvider";
 import { Inter } from "next/font/google";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,13 +17,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <section className="flex min-h-screen flex-col items-center justify-between py-2 px-24">
+    <html suppressHydrationWarning lang="en">
+      <head />
+      <body className="max-w-[700px] m-auto flex flex-col items-center justify-between min-h-screen py-14 px-8">
+        <ThemeProvider>
           <Navbar />
-          <main className="">{children}</main>
+          <main>{children}</main>
           <Footer />
-        </section>
+        </ThemeProvider>
       </body>
     </html>
   );

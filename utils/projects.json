@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Guessing Game",
+    "description": "A simple number guessing game that gives users 5 attempts to guess a secret number",
+    "githubLink": "https://github.com/amarachigoodness74/guessing_game_in_rust",
+    "LiveLink": ""
+  },
+  {
+    "id": 2,
+    "name": "Tic Tac Toe Game",
+    "description": "A simple game to learn and practice basic functionalities in React",
+    "githubLink": "https://github.com/amarachigoodness74/tic_tac_toe-game",
+    "LiveLink": "https://tic-tac-toe-game-by-amara.vercel.app"
+  },
+  {
+    "id": 3,
+    "name": "Consume Nytimes Api",
+    "description": "A simple project to learn how to integrate data from a third party api in a Rust project",
+    "githubLink": "https://github.com/amarachigoodness74/using_third_party_apis_in_rust",
+    "LiveLink": ""
+  },
+  {
+    "id": 4,
+    "name": "Product Listing",
+    "description": "This is my practical learning of the react docs - Thinking In React section",
+    "githubLink": "https://github.com/amarachigoodness74/thinking_in_react_excercise",
+    "LiveLink": "https://simple-ecommerce-app-by-amara.netlify.app/"
+  },
+  {
+    "id": 5,
+    "name": "Rust Web Server",
+    "description": "A simple project to learn how to build a custom web server using Rust",
+    "githubLink": "https://github.com/amarachigoodness74/web_server_in_rust",
+    "LiveLink": ""
+  },
+  {
+    "id": 6,
+    "name": "CLI Chat Application",
+    "description": "A simple cli chat app that uses websocket to communicate with many clients",
+    "githubLink": "https://github.com/amarachigoodness74/cli_chat_application_using_node_and_websocket",
+    "LiveLink": ""
+  }
+]
