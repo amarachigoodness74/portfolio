@@ -14,7 +14,7 @@ export default function Artefacts() {
           <a className="underline dark:hover:text-white" href="">
             Resume
           </a>
-          <span className="text-sm mt-1"> - Download</span>
+          <span className="text-sm mt-1"> - Download Soon</span>
         </li>
       </ul>
     </section>

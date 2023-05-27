@@ -9,7 +9,7 @@ export default function Intro() {
       </p>
       <p>
         I work on both the frontend and backend part of web applications but with
-        more focus on backend and DevOps Engineering ⛵
+        more focus on Backend and DevOps Engineering ⛵
       </p>
     </section>
   );

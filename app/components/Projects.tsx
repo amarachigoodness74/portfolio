@@ -36,6 +36,15 @@ export default function Projects() {
         {projects.map((project) => (
           <ListItem key={project.id} project={project} />
         ))}
+        <p>...</p>
+        More projects on  <a
+        className="underline dark:hover:text-white"
+        href="https://github.com/amarachigoodness74?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
       </ul>
     </section>
   );
