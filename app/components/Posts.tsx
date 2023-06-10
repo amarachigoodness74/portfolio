@@ -8,7 +8,7 @@ type Props = {
 };
 
 function ListItem({ post }: Props) {
-  const { id, title, date } = post;
+  const { id, title, date, time } = post;
   const formattedDate = getFormattedDate(date);
 
   return (
@@ -20,7 +20,7 @@ function ListItem({ post }: Props) {
       >
         {title}
       </Link>
-      <span className="text-sm mt-1">{" "} - {" "}{formattedDate}</span>
+      <span className="text-sm mt-1">{" "} - {" "}{formattedDate} ({time})</span>
     </li>
   );
 }
@@ -29,7 +29,7 @@ export default function Posts() {
   const posts = getSortedPostsData();
 
   return (
-    <section className="my-7 mx-auto max-w-2xl">
+    <section className="my-10 mx-auto max-w-2xl">
       <h2 className="text-2xl font-bold flex items-center"><FaRegEdit /> &nbsp; Posts</h2>
       <ul className="w-full">
         {posts.map((post) => (

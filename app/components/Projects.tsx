@@ -7,7 +7,7 @@ type Props = {
 };
 
 function ListItem({ project }: Props) {
-  const { name, description, githubLink } = project;
+  const { name, description, tools, githubLink } = project;
 
   return (
     <li className="mt-4 text-lg dark:text-white/90">
@@ -19,16 +19,16 @@ function ListItem({ project }: Props) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {name}
+        {name} 
       </a>
-      <span className="text-sm mt-1"> - {description}</span>
+      <span className="text-sm mt-1"> - {description}</span> - <span className="tools">{tools.join(", ")}</span>
     </li>
   );
 }
 
 export default function Projects() {
   return (
-    <section className="my-7 mx-auto max-w-2xl">
+    <section className="my-10 mx-auto max-w-2xl">
       <h2 className="text-2xl font-bold flex items-center">
         <FaTools /> &nbsp; Projects
       </h2>
