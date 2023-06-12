@@ -2,7 +2,8 @@ type BlogPost = {
   id: string,
   title: string,
   date: string,
-  time?: string
+  time?: string,
+  contentHtml?: string
 }
 
 type Project = {

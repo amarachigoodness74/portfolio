@@ -16,11 +16,11 @@ function ListItem({ post }: Props) {
       {" "} • {" "}
       <Link
         className="underline dark:hover:text-white"
-        href={`/posts/${id}`}
+        href={`/${id}`}
       >
         {title}
       </Link>
-      <span className="text-sm mt-1">{" "} - {" "}{formattedDate} ({time})</span>
+      <span className="text-sm mt-1">{" "} - {" "}{formattedDate} <span className="text-xs dark:text-slate-500 text-#555">({time})</span></span>
     </li>
   );
 }

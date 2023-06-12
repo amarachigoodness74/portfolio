@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   body {
     @apply max-w-2xl mx-auto px-4 flex justify-center items-center;
@@ -14,7 +13,23 @@
   --foreground: black;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --background: black;
   --foreground: white;
+}
+
+.blog-post p,
+.blog-post ol,
+.blog-post ul {
+  margin: 12px 0;
+}
+
+.blog-post ol,
+.blog-post ul {
+  margin-left: 10px;
+  list-style: initial;
+}
+
+.blog-post li {
+  margin: 10px 0;
 }

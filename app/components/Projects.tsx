@@ -21,7 +21,7 @@ function ListItem({ project }: Props) {
       >
         {name} 
       </a>
-      <span className="text-sm mt-1"> - {description}</span> - <span className="tools">{tools.join(", ")}</span>
+      <span className="text-sm mt-1"> - {description}</span> <span className="text-xs text-#555 dark:text-slate-500">({tools.join(", ")})</span>
     </li>
   );
 }
