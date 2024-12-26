@@ -24,6 +24,11 @@
   margin: 12px 0;
 }
 
+.blog-post b,
+.blog-post h3 strong {
+  font-weight: 500;
+}
+
 .blog-post ol,
 .blog-post ul {
   margin-left: 10px;
@@ -32,4 +37,44 @@
 
 .blog-post li {
   margin: 10px 0;
+  margin-left: 25px;
+}
+
+.blog-post hr {
+  margin: 20px auto;
+}
+
+.blog-post h1 {
+  margin: 5px auto;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.blog-post h2 {
+  margin: 5px auto;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.blog-post h3 {
+  margin: 5px auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.blog-post h4 {
+  margin: 5px auto;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.blog-post pre {
+  width: 60%;
+  margin: 7px auto;
+  font-size: 0.8rem;
+  padding: 15px;
+  border-radius: 10px;
+  text-wrap: auto;
+  color: #f2efef;
+  background-color: rgb(26 24 24 / 72%);
 }

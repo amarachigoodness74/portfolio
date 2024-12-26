@@ -22,7 +22,7 @@ export default function Navbar() {
       </div>
 
       <section className="text-center pb-6 pt-8 backdrop-blur-2xl lg:p-4">
-        Software Engineer - JavaScript, Rust
+        Software Engineer - JavaScript, Node.js
         <div className="max-w-[200px] flex justify-between items-center mx-auto mt-4 text-2xl">
           <ThemeChanger />
           {" "} • {" "}

@@ -37,13 +37,13 @@ This makes the Git history easier to read and understand, especially for others 
 
 ## Why Squash Commits?
 
-### 1. **Simplifies Commit History**
+**1. Simplifies Commit History** \
 Imagine opening your project’s Git history and seeing dozens of commits for minor tweaks. It’s hard to tell what’s important and what’s just noise. Squashing helps you group related changes into a single, meaningful commit.
 
-### 2. **Improves Collaboration**
+**2. Improves Collaboration** \
 If you are working on a team, a clean commit history makes it easier for others to review your work. Nobody wants to scroll through 10 commits to understand a single feature!
 
-### 3. **Keeps Production Branch Clean**
+**3. Keeps Production Branch Clean** \
 The production branch (often called `main` or `master`) is like the final version of your project. Squashing ensures this branch only contains polished, well-documented commits.
 
 ---
@@ -52,20 +52,20 @@ The production branch (often called `main` or `master`) is like the final versio
 
 Let’s say you have made three commits and want to squash them into one.
 
-### Step 1: Open Your Terminal
+**Step 1: Open Your Terminal:** 
 First, navigate to your project folder:
 ```bash
 cd path/to/your/project
 ```
 
-### Step 2: Start an Interactive Rebase
+**Step 2: Start an Interactive Rebase:** 
 Run this command to start a rebase for the last few commits:
 ```bash
 git rebase -i HEAD~3
 ```
 Replace `3` with the number of commits you want to squash.
 
-### Step 3: Mark Commits to Squash
+**Step 3: Mark Commits to Squash:** 
 Git will open a text editor with a list of your recent commits, like this:
 ```
 pick abc123 Added feature X
@@ -80,7 +80,7 @@ squash def456 Fixed typo in feature X
 squash ghi789 Updated comments for feature X
 ```
 
-### Step 4: Edit the Commit Message
+**Step 4: Edit the Commit Message:** 
 After saving, Git will ask you to edit the commit message. You will see something like this:
 ```
 # This is a combination of 3 commits.
@@ -99,7 +99,7 @@ Added feature X with typo fix and updated comments
 
 Save and close the editor.
 
-### Step 5: Force Push (If Necessary)
+**Step 5: Force Push (If Necessary):** 
 If you have already pushed the original commits to a remote branch, you will need to force-push the squashed commit:
 ```bash
 git push --force
@@ -111,7 +111,7 @@ Be careful with force-pushing if you are working with others on the same branch�
 
 ## Tips for a Smooth Squash
 
-1. **Commit Often, Squash Later:** Don’t worry about squashing while you are working. Focus on committing often to save your progress. You can squash before merging.
+1. **Commit Often, Squash Later:**  Don’t worry about squashing while you are working. Focus on committing often to save your progress. You can squash before merging.
 
 2. **Use Descriptive Commit Messages:** When squashing, write a clear message that explains the combined changes.
 
