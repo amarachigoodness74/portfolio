@@ -7,7 +7,7 @@ type Props = {
 };
 
 function ListItem({ project }: Props) {
-  const { name, description, tools, githubLink } = project;
+  const { name, description, tools, githubLink, LiveLink } = project;
 
   return (
     <li className="mt-4 text-lg dark:text-white/90">
@@ -15,13 +15,28 @@ function ListItem({ project }: Props) {
       •{" "}
       <a
         className="underline dark:hover:text-white"
-        href={githubLink}
+        href={LiveLink || githubLink}
         target="_blank"
         rel="noopener noreferrer"
       >
-        {name} 
+        {name}
       </a>
-      <span className="text-sm mt-1"> - {description}</span> <span className="text-xs text-#555 dark:text-slate-500">({tools.join(", ")})</span>
+      <span className="text-sm mt-1"> - {description}</span>{" "}
+      <span className="text-xs text-#555 dark:text-slate-500">
+        ({tools.join(", ")})
+      </span>{" "}
+      <span className="text-sm font-bold">
+        {" "}
+        - {" "}
+        <a
+          className="underline dark:hover:text-white"
+          href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          [ Code ]
+        </a>
+      </span>
     </li>
   );
 }
