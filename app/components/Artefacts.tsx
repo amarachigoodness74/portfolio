@@ -11,10 +11,13 @@ export default function Artefacts() {
         <li className="mt-4 text-lg dark:text-white/90">
           {" "}
           •{" "}
-          <a className="underline dark:hover:text-white" href="">
-            Resume
+          <a
+            className="underline dark:hover:text-white"
+            href="/Amara-CV.pdf"
+            download="SampleDocument"
+          >
+            Download Resume
           </a>
-          <span className="text-sm mt-1"> - Download Soon</span>
         </li>
       </ul>
     </section>

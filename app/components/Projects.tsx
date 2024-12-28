@@ -27,7 +27,16 @@ function ListItem({ project }: Props) {
       </span>{" "}
       <span className="text-sm font-bold">
         {" "}
-        - {" "}
+        -{" "}
+        <a
+          className="underline dark:hover:text-white"
+          href={LiveLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          [ Demo ]
+        </a>
+        {" • "}
         <a
           className="underline dark:hover:text-white"
           href={githubLink}
