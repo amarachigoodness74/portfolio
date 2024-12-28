@@ -22,26 +22,25 @@ export default function Navbar() {
       </div>
 
       <section className="text-center pb-6 pt-8 backdrop-blur-2xl lg:p-4">
-        Software Engineer - JavaScript, Node.js
+        Software Developer - JavaScript, Node.js
         <div className="max-w-[200px] flex justify-between items-center mx-auto mt-4 text-2xl">
-          <ThemeChanger />
-          {" "} • {" "}
+          <ThemeChanger /> •{" "}
           <a
             href="https://github.com/amarachigoodness74"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub className="h-5 w-5" />
-          </a>
-          {" "} • {" "}
+          </a>{" "}
+          •{" "}
           <a
             href="https://www.linkedin.com/in/dev-amarachi"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedinIn className="h-5 w-5" />
-          </a>
-          {" "} • {" "}
+          </a>{" "}
+          •{" "}
           <a
             href="https://twitter.com/dev_amarachi"
             target="_blank"
