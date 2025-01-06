@@ -63,18 +63,18 @@ body {
 
 .blog-post h3 {
   margin: 5px auto;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
 .blog-post h4 {
   margin: 5px auto;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
 }
 
 .blog-post pre {
-  width: 60%;
+  width: 80%;
   margin: 7px auto;
   font-size: 0.8rem;
   padding: 15px;

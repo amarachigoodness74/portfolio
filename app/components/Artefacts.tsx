@@ -13,8 +13,8 @@ export default function Artefacts() {
           •{" "}
           <a
             className="underline dark:hover:text-white"
-            href="/Amara-CV.pdf"
-            download="SampleDocument"
+            href="/Amara_CV.pdf"
+            download="Amara_CV.pdf"
           >
             Download Resume
           </a>
