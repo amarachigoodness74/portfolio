@@ -4,7 +4,7 @@
     "name": "Face Detection Application",
     "description": "A project that accepts image link and marks face area on image using Clarifai's face-detection model ",
     "tools": ["CSS", "React.js", "Express.js", "Clarifai"],
-    "githubLink": "https://github.com/amarachigoodness74/real_time_chat_app_react",
+    "githubLink": "https://github.com/amarachigoodness74/face-detection-app",
     "LiveLink": "https://face-detection-app-by-amara.vercel.app/"
   },
   {
