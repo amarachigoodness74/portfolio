@@ -4,7 +4,7 @@ date: '2025-01-06'
 time: '~6mins'
 ---
 
-Git is an essential tool for developers, whether you are working solo or as part of a team. It’s a version control system that helps you track changes in your code, collaborate effectively, and maintain a history of your work. Let’s dive into Git and its workflows in simple terms.
+Git is an essential tool for developers, whether you are working solo or as part of a team. It is a version control system that helps you track changes in your code, collaborate effectively, and maintain a history of your work. Let’s dive into Git and its workflows in simple terms.
 
 ---
 
@@ -40,7 +40,7 @@ Before diving into workflows, let’s cover some key Git concepts:
 
 ---
 
-## Common Git Commands You’ll Use Everyday
+## Common Git Commands You Will Use Everyday
 Here are some key Git commands and what they do:
 
 **Setting Up Git**
@@ -69,7 +69,7 @@ $ git commit -m "Initial commit"
 # See the current state of your project
 $ git status
 
-# View changes you’ve made
+# View changes you have made
 $ git diff
 ```
 
@@ -234,6 +234,6 @@ Here are some additional commands you will find useful:
 
 Git is a powerful tool, and understanding its workflows can make your development process more efficient and enjoyable. Start with the basic workflow, then explore branching and collaboration as you grow. With practice, you will master Git and feel confident contributing to any project.
 
-Remember, Git isn’t just a tool — it is a superpower for developers. 
+Remember, Git is not just a tool — it is a superpower for developers. 
 Happy coding!
 

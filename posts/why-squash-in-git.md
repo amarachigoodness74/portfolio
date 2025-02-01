@@ -4,12 +4,12 @@ date: '2024-12-26'
 time: '~5mins'
 ---
 
-When you are working on a project, your Git commit history can sometimes get messy. You have probably made multiple small commits like "fix typo," "added a log statement," or "oops, removed the log statement." While these commits are useful during development, they can clutter the commit history when you merge your code into the production branch. That’s where **squashing commits** comes in.
+When you are working on a project, your Git commit history can sometimes get messy. You have probably made multiple small commits like "fix typo," "added a log statement," or "oops, removed the log statement." While these commits are useful during development, they can clutter the commit history when you merge your code into the production branch. That is where **squashing commits** comes in.
 
 This blog post will explore:
 
 1. What squashing commits means.
-2. Why it’s useful (especially for beginners).
+2. Why it is useful (especially for beginners).
 3. How to squash commits step-by-step.
 4. Tips to make the process painless.
 
@@ -19,7 +19,7 @@ Let’s dive in!
 
 ## What Does "Squash Commits" Mean?
 
-Squashing commits means combining multiple smaller commits into one larger, meaningful commit. It’s like tidying up your desk before showing it to someone (you are organizing your work so it looks clean and professional).
+Squashing commits means combining multiple smaller commits into one larger, meaningful commit. It is like tidying up your desk before showing it to someone (you are organizing your work so it looks clean and professional).
 
 For example, let’s say you have these three commits:
 
@@ -38,7 +38,7 @@ This makes the Git history easier to read and understand, especially for others 
 ## Why Squash Commits?
 
 **1. Simplifies Commit History** \
-Imagine opening your project’s Git history and seeing dozens of commits for minor tweaks. It’s hard to tell what’s important and what’s just noise. Squashing helps you group related changes into a single, meaningful commit.
+Imagine opening your project’s Git history and seeing dozens of commits for minor tweaks. It is hard to tell what is important and what is just noise. Squashing helps you group related changes into a single, meaningful commit.
 
 **2. Improves Collaboration** \
 If you are working on a team, a clean commit history makes it easier for others to review your work. Nobody wants to scroll through 10 commits to understand a single feature!
@@ -123,7 +123,7 @@ Be careful with force-pushing if you are working with others on the same branch�
 
 ## Final Thoughts
 
-Squashing commits might sound intimidating at first, but it’s a simple way to keep your Git history clean and professional. It’s especially useful when you are merging your code into a shared or production branch. By following the steps above, you will be squashing like a pro in no time!
+Squashing commits might sound intimidating at first, but it is a simple way to keep your Git history clean and professional. It is especially useful when you are merging your code into a shared or production branch. By following the steps above, you will be squashing like a pro in no time!
 
 So next time someone says, "Squash your commits before pushing to production," you now know exactly what to do. Your team (and your future self) will thank you for the clean Git history.
 

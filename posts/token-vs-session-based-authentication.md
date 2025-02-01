@@ -8,7 +8,7 @@ Authentication is a cornerstone of secure web applications. It ensures that only
 
 ## What Is Session-Based Authentication?
 
-Session-based authentication relies on server-side storage to manage user authentication. Here’s how it typically works:
+Session-based authentication relies on server-side storage to manage user authentication. Here is how it typically works:
 
 1. **Login:** A user provides their credentials (e.g., username and password).
 2. **Session Creation:** The server verifies the credentials and creates a session for the user. A session ID is generated and stored on the server.
@@ -46,7 +46,7 @@ Token-based authentication uses cryptographic tokens to authenticate users. It w
 
 ### Drawbacks
 
-- **Token Revocation:** Once issued, it’s difficult to invalidate a token until it expires unless you implement additional mechanisms like a token blacklist.
+- **Token Revocation:** Once issued, it is difficult to invalidate a token until it expires unless you implement additional mechanisms like a token blacklist.
 - **Security Risks:** Improper storage of tokens on the client side can expose them to attacks like XSS (Cross-Site Scripting).
 
 ---
@@ -83,7 +83,7 @@ Sometimes, these two methods can complement each other. For example:
 
 ### Choose Session-Based Authentication When:
 
-- You are building a web application that doesn’t need API-first design.
+- You are building a web application that does not need API-first design.
 - The user base is small to medium-sized.
 - You prefer server-side control over sessions and security.
 
