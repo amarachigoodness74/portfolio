@@ -1,5 +1,5 @@
 import Link from "next/link";
-import getFormattedDate from "@/utils/getFormattedDate";
+import { getFormattedDate } from "@/utils/helpers";
 import { getPostData } from "@/utils/posts";
 
 type PageParams = {

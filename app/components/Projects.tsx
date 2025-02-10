@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTools } from "react-icons/fa";
-import projects from "@/utils/projects.json";
+import projects from "@/data/projects.json";
 
 type Props = {
   project: Project;
