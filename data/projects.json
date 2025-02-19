@@ -41,11 +41,11 @@
   },
   {
     "id": 7,
-    "name": "Habitable Planets",
-    "description": "An NextJS application that parses a csv file and returns list of human habitable planets with details.",
+    "name": "Kepler Exoplanet Explorer",
+    "description": "An interactive web app designed to explore exoplanetary data visually and analytically. Features dynamic charts, searchable and filterable exoplanet database, and a habitability checker",
     "tools": ["TailwindCSS", "Next.js"],
-    "githubLink": "https://github.com/amarachigoodness74/habitable_planets",
-    "LiveLink": "https://habitable-planets.vercel.app"
+    "githubLink": "https://github.com/amarachigoodness74/kepler-exoplanet-explorer",
+    "LiveLink": "hhttps://kepler-exoplanet-explorer.vercel.app"
   },
   {
     "id": 8,

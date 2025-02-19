@@ -38,5 +38,13 @@
     "tags": ["authentication", "programming", "discuss", "learning"],
     "LiveLink": "https://dev.to/amarachigoodness74/session-vs-token-based-authentication-which-one-should-you-choose-hcj",
     "date": "2025-02-10"
+  },
+  {
+    "id": 6,
+    "title": "Mastering Programming: The Essential Guide to Coding, Problem-Solving, and Writing Clean Code",
+    "readTime": "~4mins",
+    "tags": ["webdev", "programming", "learning"],
+    "LiveLink": "https://dev.to/amarachigoodness74/mastering-programming-the-essential-guide-to-coding-problem-solving-and-writing-clean-code-5bk7",
+    "date": "2025-02-15"
   }
 ]
