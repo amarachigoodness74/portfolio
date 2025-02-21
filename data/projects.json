@@ -9,6 +9,14 @@
   },
   {
     "id": 2,
+    "name": "Tic Tac Toe Game With AI Player",
+    "description": "A Tic-Tac-Toe game that features a board where players can make moves, and an AI (using the Minimax algorithm) that can play against the user.",
+    "tools": ["TailwindCSS", "NextJS", "TypeScript"],
+    "githubLink": "https://github.com/amarachigoodness74/tic-tac-toe-with-ai-player",
+    "LiveLink": "https://tic-tac-toe-with-ai-player.vercel.app"
+  },
+  {
+    "id": 3,
     "name": "GitHub Snoop",
     "description": "A web app that allows users to explore detailed GitHub profiles by entering a username, providing insights into repositories, followers, starred projects, organizations, and more.",
     "tools": ["TailwindCSS", "Next.js", "NextAuth", "GitHub API"],
@@ -32,7 +40,7 @@
     "LiveLink": "https://auth-xpress.vercel.app"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Developers Quiz App",
     "description": "A quiz app that scores users and correct them on wrong answers",
     "tools": ["CSS", "Next.js", "ApolloGraphQL"],
@@ -40,7 +48,7 @@
     "LiveLink": "https://programming-quiz-gules.vercel.app"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Kepler Exoplanet Explorer",
     "description": "An interactive web app designed to explore exoplanetary data visually and analytically. Features dynamic charts, searchable and filterable exoplanet database, and a habitability checker",
     "tools": ["TailwindCSS", "Next.js"],
@@ -48,7 +56,7 @@
     "LiveLink": "hhttps://kepler-exoplanet-explorer.vercel.app"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Tic Tac Toe Game",
     "description": "A simple game to learn and practice basic functionalities in React",
     "tools": ["CSS", "React"],
