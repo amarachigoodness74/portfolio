@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Clean Up Your Git History: How to Squash Commits Before Pushing to Production",
-    "readTime": "~4mins",
+    "readTime": "~3mins",
     "tags": ["git", "beginners"],
     "LiveLink": "https://dev.to/amarachigoodness74/clean-up-your-git-history-how-to-squash-commits-before-pushing-to-production-15a",
     "date": "2025-02-01"
@@ -42,9 +42,17 @@
   {
     "id": 6,
     "title": "Mastering Programming: The Essential Guide to Coding, Problem-Solving, and Writing Clean Code",
-    "readTime": "~4mins",
+    "readTime": "~3mins",
     "tags": ["webdev", "programming", "learning"],
     "LiveLink": "https://dev.to/amarachigoodness74/mastering-programming-the-essential-guide-to-coding-problem-solving-and-writing-clean-code-5bk7",
     "date": "2025-02-15"
+  },
+  {
+    "id": 7,
+    "title": "Microservices vs Monolithic vs Modular Architecture: Choosing the Right Approach",
+    "readTime": "~3mins",
+    "tags": ["webdev", "architecture", "learning"],
+    "LiveLink": "https://dev.to/amarachigoodness74/microservices-vs-monolithic-vs-modular-architecture-choosing-the-right-approach-1jn7",
+    "date": "2025-02-24"
   }
 ]
